@@ -1,0 +1,27 @@
+{
+	"name": "tidyrow",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"check": "biome check .",
+		"fix": "biome check --write ."
+	},
+	"keywords": [],
+	"author": "Gurkunwar Singh",
+	"license": "ISC",
+	"devEngines": {
+		"packageManager": {
+			"name": "pnpm",
+			"version": "12.18.0",
+			"onFail": "download"
+		}
+	},
+	"packageManager": "pnpm@12.18.0",
+	"type": "module",
+	"private": true,
+	"devDependencies": {
+		"@biomejs/biome": "^2.6.6"
+	}
+}
